@@ -1,0 +1,65 @@
+body {
+    background-image: url("el-koala-ha-sido-declarado-funcionalmente-extinto-887192-364502-jpg_604x0.jpg");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+#canvas {
+    cursor: crosshair;
+    display: block;
+    position: absolute;
+}
+
+header#home {
+    background-image: url(Astra-Landing-Snow.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 555px;
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff!important;
+    background-color: rgb(52, 238, 5)!important;
+}
+
+.marvi {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+.w3-black {
+    color: #fff!important;
+}
+
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+#main {
+    margin-left: 120px
+}
+
+
+/* Remove margins from "page content" on small screens */
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
